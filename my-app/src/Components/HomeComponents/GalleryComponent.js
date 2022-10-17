@@ -12,37 +12,37 @@ export default function GalleryComponent() {
             setPhotos(data.hits);
         });
     },[setPhotos]);
-  return (
-    <div className='container-bg'>
-        <div className='container-tm text-center'>
-            <h1 className='custom-font'>
-                <span>
-                    <i className='fa fa-photo'></i>
-                    </span>{" "}
-                GalleryComponent
-            </h1>
-            <hr className="hr mx-auto" />
-            <div class="conatiner">
-                <div class="row">
-                    {photos.map((photo)=>(
-                        <div class='col-sm-4' key={photo.id}>
-                            <img
-                            src={photo.largeImageURL}
-                            className='img-fluid gallery-img'
-                            alt="..."
-                            />
-                            </div>
-                    ))}
-    </div>
-    <br />
-    <a className='btn btn-custom' href="/">
-        {" "}
-        View More
-        {" "}
-</a>
+    return (
+        <div className='container-bg'>
+            <div className='container-tm text-center'>
+                <h1 className='custom-font'>
+                    <span>
+                        <i className='fa fa-photo'></i>
+                        </span>{" "}
+                    GalleryComponent
+                </h1>
+                <hr className="hr mx-auto" />
+                <div class="conatiner">
+                    <div class="row">
+                        {photos.map((photo)=>(
+                            <div class='col-sm-4' key={photo.id}>
+                                <img
+                                src={photo.largeImageURL}
+                                className='img-fluid gallery-img'
+                                alt="..."
+                                />
+                                </div>
+                        ))}
+        </div>
+        <br />
+        <a className='btn btn-custom' href="/">
+            {" "}
+            View More
+            {" "}
+        </a>
 
-    </div>
-    </div>
-    </div>
-  )
+        </div>
+        </div>
+        </div>
+    )
 }
