@@ -1,0 +1,119 @@
+/* Primary COlor : #56C6B6 */
+
+@import url("https://fonts.googleapis.com/css2?family=Julius+Sans+Ones&family=Lekton&family=Pacifico&display=swap");
+
+body {
+  margin: 0;
+  font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans", "Droid Sans", "Helvetica Neue",
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+.body::-webkit-scrollbar{
+  display: none;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+  monospace;
+}
+
+/* CLASS STYLE */
+.btn-custom{
+  background-color: #56c6b6 ;
+  color: white;
+  font-family: "Lekton",sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.btn-custom:hover {
+  background-color: #acfbf0 ;
+  color: black;
+  font-family: "Lekton",sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.container-bg{
+  background-image: linear-gradient(to right, #f2faf9, #defcf7);
+}
+.container-tm {
+  padding-top: 150px;
+  /* padding-bottom: 50px;*/
+}
+.custom-font {
+  font-family: "Lekton",sans-serif;
+  font-weight: 500;
+}
+.custom-font-white {
+  font-family: "Julius Sans One",sans-serif;
+  font-weight: 500;
+  color: white;
+}
+.fa {
+  margin-left: 5px;
+  color: #56c6b6;
+}
+.fa-hire {
+  margin-top:  50px;
+}
+.font-signature {
+  font-family: "Pacifico",cursive;
+}
+.hr {
+  width: 30%;
+  color: #56c6b6;
+}
+.gallery-img {
+  width: 500px;
+  height: 200px;
+  border: #1e2c2a solid 0.5px;
+  margin-top: 10px;
+  filter: grayscale();
+  transition-duration: 0.5s;
+}
+.gallery-img:hover {
+  filter: none;
+}
+.navbar{
+  background-color: #acfbf0;
+}
+.para {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Background Image */
+.bg {
+  position:relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-color: rgba(0,0,0,0.685);
+  background-blend-mode: overlay;
+  transition-duration: 1s;
+  transition-delay: 5s;
+  background-attachment: fixed
+}
+
+.parallax {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-image: url("https://media.voltron.voanews.com/Drupal/01live-166/2020-04/ap_paper.jpg");
+  background-color: rgba(4,23,26,0.993);
+  background-blend-mode: overlay;
+  background-attachment: fixed;
+  /* filter: grayscale();*/
+}
+
+
+
